@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/meHome/index",
+    "pages/order/index"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取用户地理位置信息"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#f3f4f5",
+    "navigationBarTitleText": "德邦快递",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#909399",
+    "selectedColor": "#303133",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "寄件",
+        "iconPath": "./assets/images/tab_home_hui.png",
+        "selectedIconPath": "./assets/images/tab_home.png"
+      },
+      {
+        "pagePath": "pages/order/index",
+        "text": "查询",
+        "iconPath": "./assets/images/tab_search_hui.png",
+        "selectedIconPath": "./assets/images/tab_search.png"
+      },
+      {
+        "pagePath": "pages/meHome/index",
+        "text": "我的",
+        "iconPath": "./assets/images/tab_mine_hui.png",
+        "selectedIconPath": "./assets/images/tab_mine.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000
+  }
+}
